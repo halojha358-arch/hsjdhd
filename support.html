@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>深眠时光 · 技术支持</title>
+<meta name="description" content="深眠时光技术支持：联系方式、快速上手和常见问题。">
+<style>
+  :root {
+    --bg: #f3eee6; --card: #ffffff; --ink: #11283a; --soft: #5b6b76; --line: #e6dfd3;
+    --accent: #1f7a8c; --hero: #0f2a3a; --hero-ink: #f3eee6; --hero-soft: #a9c4cc;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0b1820; --card: #13242f; --ink: #ebe6de; --soft: #9aabb5; --line: #213441; --accent: #6fc0cc; --hero: #0f2a3a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); line-height: 1.75; font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    -webkit-text-size-adjust: 100%; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+  .hero { background: var(--hero); color: var(--hero-ink); padding: 56px 0 40px; }
+  .kicker { margin: 0 0 6px; font-size: 13px; letter-spacing: .12em; color: var(--hero-soft); }
+  .hero h1 { margin: 0; font-size: 32px; line-height: 1.3; }
+  .meta { margin: 10px 0 0; font-size: 14px; color: var(--hero-soft); }
+  main.wrap { padding-top: 24px; padding-bottom: 8px; }
+  .card { background: var(--card); border-radius: 20px; padding: 22px 22px 8px; margin: 0 0 16px;
+    box-shadow: 0 1px 2px rgba(17, 40, 58, .06); }
+  h2 { margin: 0 0 10px; font-size: 20px; line-height: 1.4; }
+  h3 { margin: 18px 0 4px; font-size: 16px; }
+  p, ul, ol { margin: 0 0 14px; }
+  ul, ol { padding-left: 1.3em; }
+  li { margin: 0 0 6px; }
+  .toc ol { columns: 2; column-gap: 24px; }
+  .table { overflow-x: auto; margin: 0 0 14px; -webkit-overflow-scrolling: touch; }
+  table { width: 100%; min-width: 620px; border-collapse: collapse; font-size: 14px; line-height: 1.6; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-top: 1px solid var(--line); }
+  th { color: var(--soft); font-weight: 600; border-top: 0; }
+  .soft { color: var(--soft); font-size: 14px; }
+  footer { text-align: center; color: var(--soft); font-size: 13px; padding: 12px 0 40px; }
+  @media (max-width: 520px) { .hero h1 { font-size: 26px; } .toc ol { columns: 1; } }
+  .button { display: inline-block; background: var(--accent); color: #fff; border-radius: 14px; padding: 11px 22px; font-weight: 600; margin: 4px 0 14px; }
+  .button:hover { text-decoration: none; opacity: .92; }
+  details { border-top: 1px solid var(--line); padding: 12px 0; }
+  details:first-of-type { border-top: 0; }
+  summary { cursor: pointer; font-weight: 600; list-style: none; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "＋"; float: right; color: var(--soft); }
+  details[open] summary::after { content: "－"; }
+  details p { margin: 8px 0 0; color: var(--soft); }
+  .faq { padding-bottom: 14px; }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="kicker">MIANXI · 深眠时光</p>
+    <h1>技术支持</h1>
+    <p class="meta">了解身体的节律，睡好每一晚。　版本 1.0.0 · 适用于 iOS 16.4 及以上的 iPhone</p>
+  </div>
+</header>
+<main class="wrap">
+
+<section class="card" id="contact">
+  <h2>联系我们</h2>
+  <p>使用中遇到问题，或有功能建议，都可以联系我们。我们通常在 2 个工作日内回复。</p>
+  <a class="button" href="mailto:guierrumbaugh096@outlook.com?subject=%E6%B7%B1%E7%9C%A0%E6%97%B6%E5%85%89%20%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81">发送邮件</a>
+  <p class="soft">邮箱：guierrumbaugh096@outlook.com<br>也可以在应用内“我的 → 意见反馈”中提交。<br>发邮件时附上手机型号、iOS 版本和问题截图，能帮我们更快找到原因。</p>
+</section>
+
+<section class="card" id="start">
+  <h2>快速上手</h2>
+  <ol>
+    <li>首次打开完成 3 步设置：起床时间、作息类型、昵称。</li>
+    <li>在“此刻”页查看今天的精力曲线、睡眠债和今晚建议的入睡时间。</li>
+    <li>睡前点“开始入睡”进入床头模式：暗光时钟、伴睡声景、渐进唤醒闹钟。</li>
+    <li>醒来点“我醒了”，昨晚会记录到“夜记”。</li>
+    <li>在“声景”页叠加雨声、潮汐、炉火等声音，可以单独调音量、定时关闭。</li>
+  </ol>
+</section>
+
+<section class="card faq" id="faq">
+  <h2>常见问题</h2>
+  <details>
+    <summary>提醒没有响？</summary>
+    <p>请在 iPhone 的“设置 → 通知 → 深眠时光”中允许通知，并检查专注模式是否屏蔽了本应用。提醒时间可以在“我的 → 提醒”中调整。</p>
+  </details>
+  <details>
+    <summary>锁屏后声景停止了？</summary>
+    <p>声景支持锁屏后继续播放。如果被来电或其他应用的声音打断，回到“声景”页重新点播放即可；也请确认没有设置定时关闭。</p>
+  </details>
+  <details>
+    <summary>我的数据保存在哪里？会上传吗？</summary>
+    <p>睡眠记录、照片和设置只保存在你的手机上。只有你主动提交意见反馈，或在“云端备份”中配置了自己的服务器并上传时，相应内容才会离开手机。详见<a href="privacy.html">隐私政策</a>。</p>
+  </details>
+  <details>
+    <summary>换手机时怎么迁移数据？</summary>
+    <p>在旧手机“我的 → 本地数据 → 导出完整备份”，把 JSON 文件存到“文件”或发给自己；在新手机“我的 → 本地数据 → 恢复”中选择这个文件。</p>
+  </details>
+  <details>
+    <summary>怎么删除全部数据？</summary>
+    <p>在“我的 → 本地数据 → 清空全部数据”中确认两次即可删除，删除后无法恢复。也可以直接删除本应用。</p>
+  </details>
+  <details>
+    <summary>精力曲线是怎么算的？</summary>
+    <p>参考睡眠研究中的“双过程模型”，根据你的起床时间、近期睡眠债和作息类型，估算一天中的高峰和低谷。结果仅供参考，不能替代医疗诊断。</p>
+  </details>
+  <details>
+    <summary>开启隐私锁后面容 ID 识别失败？</summary>
+    <p>可以改用设备密码解锁。如需关闭隐私锁，在“我的 → 隐私锁”中验证身份后关闭。</p>
+  </details>
+  <details>
+    <summary>怎么给某一晚添加照片？</summary>
+    <p>在“夜记”中打开那一晚进行编辑，点“照片”，选择拍照或从相册选择。长按照片可以移除。</p>
+  </details>
+</section>
+
+<section class="card">
+  <h2>相关链接</h2>
+  <p><a href="privacy.html">隐私政策</a></p>
+</section>
+
+</main>
+<footer>© 2026 Azra Meral Aslan · 深眠时光</footer>
+</body>
+</html>
